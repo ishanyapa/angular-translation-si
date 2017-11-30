@@ -2,9 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Angular Translate Si</title>
+
+    <!--jquery CDN-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+    <!--Main Angular Files-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-animate.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/angular-material-icons/0.4.0/angular-material-icons.min.js"></script>
+
+    <!--JS-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="assets/js/moment.min.js"></script>
+    <script src="assets/js/locales.min.js"></script>
+    <script src="assets/js/humanize-duration.js"></script>
+    <script type="text/javascript" src="assets/js/md-data-table.min.js"></script>
+    <script type="text/javascript" src="assets/js/mdPickers.min.js"></script>
+    <script type="text/javascript" src="assets/js/angular-timer.min.js"></script>
+    <script type="text/javascript" src="assets/js/ng-right-click.js"></script>
+    <script src="bower_components/angular-translate/angular-translate.js"></script>
+
+    <!--CSS-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+    <link href="assets/css/md-data-table.min.css" rel="stylesheet" type="text/css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/mdPickers.min.css">
+    <link rel="stylesheet" href="assets/css/ng-right-click.css">
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+    <!--Animate-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+
+    <!--Application Files-->
+    <script src="app/app.module.js"></script>
+    <script src="app/app.route.js"></script>
+
+    <!--Core Files-->
+    <script src="app/core/core.module.js"></script>
+    <script src="app/core/core.controller.js"></script>
+    <script src="app/core/core.route.js"></script>
+
 </head>
 <body>
-$END$
+<div ng-app="angular-trans-si">
+    <div ui-view autoscroll="true"></div>
+</div>
 </body>
 </html>
